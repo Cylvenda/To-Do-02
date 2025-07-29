@@ -39,7 +39,7 @@ const App = () => {
     <div className='container bg-white dark:bg-white h-full p-9 pt-2 m-auto'>
       <h2 className="bg-sky-500 text-center rounded-tr-0xl rounded-br-md rounded-tl-md rounded-bl-3xl font-bold text-3xl p-3">To Do App List</h2>
 
-      <div className="container bg-sky-500 p-3.5 h-96 mt-4 rounded-3xl">
+      <div className="container bg-sky-500 p-3.5 max-h-full mt-4 rounded-3xl">
         <div className='flex justify-center mb-4'><span className='flex justify-between gap-1.5'><input type="text" className='border-2 border-gray-300 text-black bg-white outline-none  rounded-md p-2' placeholder='add new task' /> <PlusSquare color='white' size={35} className='mt-1' /></span></div>
         <div className="flex justify-between gap-3">
           <div className="bg-white w-full max-h-full p-3.5 rounded-tr-3xl rounded-br-0 rounded-tl-0 rounded-bl-3xl font-bold">
